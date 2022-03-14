@@ -7,7 +7,7 @@ class CreatePostImages < ActiveRecord::Migration[6.1]
       t.text :caption
       t.integer :user_id
       
-    shop
+    t.timestamps
     end
   end
 end
